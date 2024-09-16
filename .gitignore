@@ -1,0 +1,5 @@
+# Project exclude paths
+/hello-javafx/.gradle/
+/hello-javafx/build/
+/hello-javafx/build/classes/java/main/
+/out/

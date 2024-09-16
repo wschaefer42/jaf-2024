@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class Pet {
+    - String name
+    # {static} Pet[] pets = [] {readOnly}
+    + {abstract} String speak()
+    + getName()
+}
+class Dog {
+    - String race = "";
+    --
+    - Dog(String name)
+    + {static} Dog create (String name)
+    + <<override>> String speak()
+    --
+    + setRace(String race)
+    + getRace()
+}
+note right of Dog::create
+    dog = new Dog(name)
+    Pet.pets.add(dog)
+    return dog
+end note
+Dog <|-- Pet
+
+@enduml

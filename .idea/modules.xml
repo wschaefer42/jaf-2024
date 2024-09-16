@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/einfuehrung/einfuehrung.iml" filepath="$PROJECT_DIR$/einfuehrung/einfuehrung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-javafx.iml" filepath="$PROJECT_DIR$/hello-javafx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-javafx.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-javafx.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello-javafx.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hello-javafx.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaf-2024.iml" filepath="$PROJECT_DIR$/jaf-2024.iml" />
+    </modules>
+  </component>
+</project>
